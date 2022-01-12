@@ -11,7 +11,8 @@ spec:
     Thanks
   # 'platforms' specify installation methods for various platforms (os/arch)
   platforms:
-  - selector:
+  - bin: "kubectl-search.sh"
+    selector:
       matchExpressions:
       - key: "os"
         operator: "In"
